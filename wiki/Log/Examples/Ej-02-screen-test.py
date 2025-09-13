@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ──────────────────────────────────────────────────────
-# ── Impresion de dibujos en modo texto
+# ── Mostrando todos los pixeles de la pantalla de texto
 # ──────────────────────────────────────────────────────
 import curses
 
