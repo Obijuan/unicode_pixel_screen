@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.5462826"
-     inkscape:cx="211.15158"
-     inkscape:cy="222.14569"
+     inkscape:zoom="1.0933869"
+     inkscape:cx="199.83777"
+     inkscape:cy="234.59217"
      inkscape:window-width="1866"
      inkscape:window-height="1011"
      inkscape:window-x="54"
@@ -270,7 +270,7 @@
          id="tspan20"
          style="font-size:6.61458px;fill:#008000;stroke-width:0.529"
          x="40.271431"
-         y="34.984699">(x,y): Coordenadas de carácter</tspan></text>
+         y="34.984699">(xc,yc): Coordenadas de carácter</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.61458px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#008000;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -313,7 +313,7 @@
          id="tspan23"
          style="font-size:6.61458px;fill:#ff0000;stroke-width:0.529"
          x="40.271431"
-         y="43.711273">(x,y): Coordenadas Locales</tspan></text>
+         y="43.711273">(xl,yl): Coordenadas Locales</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.61458px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#ff0000;stroke:none;stroke-width:0.529;stroke-linecap:square"
