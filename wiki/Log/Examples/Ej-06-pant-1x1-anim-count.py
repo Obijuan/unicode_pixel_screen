@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ──────────────────────────────────────────────────────
-# ── Pantalla 1x1. Animaciones sencillas
+# ── Pantalla 1x1. Contador de píxeles
 # ──────────────────────────────────────────────────────
 import curses
 import time
@@ -8,30 +8,9 @@ import time
 # ────── Tiempo de espera entre fotogramas
 WAIT = 0.2
 
-
-# ────────────────────────────────────────────────────────────
-# ── Generar la animacion a partir de la lista de caracteres
-# ────────────────────────────────────────────────────────────
-def animate(anim):
-
-    # ── Numero de veces a repetir la animacion
-    for _ in range(5):
-
-        # ── Animación de los caracteres dados
-        for car in anim:
-
-            # ── Mostrar caracter actual y esperar
-            stdscr.addstr(0, 0, car)
-            stdscr.refresh()
-            time.sleep(WAIT)
-
-
 # ────────────────
 # ──     MAIN
 # ────────────────
-
-# ────── Caracteres de la animación
-anim = ['⠁', '⠈', '⠐', '⠠', '⢀', '⡀', '⠄', '⠂']
 
 # ────── Constantes para determinar la visibilidad del cursor
 ON = 2
@@ -43,7 +22,17 @@ stdscr = curses.initscr()
 # ── Ocultar el cursor
 curses.curs_set(OFF)
 
-animate(anim)
+
+# ── Animación del contador. Recorrer todos los caracteres braile
+# ── mostrándolo en la posión (0,0) y esperando un tiempo
+for i in range(256):
+    # ── Obtener el carácter unicode a partir de su codigo
+    car = chr(0x2800 + i)
+
+    # ── Mostrarlo en la pantalla
+    stdscr.addstr(0, 0, car)
+    stdscr.refresh()
+    time.sleep(WAIT)
 
 stdscr.addstr(2, 0, "Pulsa una tecla")
 

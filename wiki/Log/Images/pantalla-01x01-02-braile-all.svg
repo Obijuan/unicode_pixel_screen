@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.77314128"
-     inkscape:cx="356.3385"
-     inkscape:cy="358.92534"
+     inkscape:zoom="1.5462826"
+     inkscape:cx="258.68493"
+     inkscape:cy="234.43322"
      inkscape:window-width="1866"
      inkscape:window-height="1011"
      inkscape:window-x="54"
@@ -72,14 +72,14 @@
     <text
        xml:space="preserve"
        style="font-size:6.61458px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#1a1a1a;stroke:none;stroke-width:0.529;stroke-linecap:square"
-       x="45.284611"
-       y="44.863567"
+       x="44.600174"
+       y="47.433784"
        id="text2"><tspan
          sodipodi:role="line"
          id="tspan2"
          style="font-size:6.61458px;stroke-width:0.529"
-         x="45.284611"
-         y="44.863567">Bits</tspan></text>
+         x="44.600174"
+         y="47.433784">Bits</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:6.61458px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -107,7 +107,7 @@
          id="tspan8"
          style="font-size:6.61458px;stroke-width:0.529"
          x="79.82605"
-         y="47.275032">4</tspan></text>
+         y="47.275032">3</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.77989px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -118,7 +118,7 @@
          id="tspan19"
          style="font-size:5.77989px;fill:#000080;stroke-width:0.529"
          x="85.302811"
-         y="52.978687">16</tspan></text>
+         y="52.978687">8</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.77989px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -144,9 +144,9 @@
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529;stroke-linecap:square"
        id="rect25"
-       width="37.404167"
+       width="38.944149"
        height="64.553429"
-       x="59.27597"
+       x="57.735985"
        y="37.662777" />
     <circle
        style="fill:#1a1a1a;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -181,7 +181,7 @@
          id="tspan27"
          style="font-size:6.61458px;stroke-width:0.529"
          x="79.82605"
-         y="61.326977">5</tspan></text>
+         y="61.326977">4</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.77989px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -192,7 +192,7 @@
          id="tspan28"
          style="font-size:5.77989px;fill:#000080;stroke-width:0.529"
          x="85.302811"
-         y="67.030632">32</tspan></text>
+         y="67.030632">16</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.77989px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -237,7 +237,7 @@
          id="tspan31"
          style="font-size:6.61458px;stroke-width:0.529"
          x="79.82605"
-         y="75.378929">6</tspan></text>
+         y="75.378929">5</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.77989px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -248,7 +248,7 @@
          id="tspan32"
          style="font-size:5.77989px;fill:#000080;stroke-width:0.529"
          x="85.302811"
-         y="81.082588">64</tspan></text>
+         y="81.082588">32</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.77989px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:0.529;stroke-linecap:square"
@@ -276,7 +276,7 @@
          id="tspan34"
          style="font-size:6.61458px;stroke-width:0.529"
          x="68.895172"
-         y="89.480484">3</tspan></text>
+         y="89.480484">6</tspan></text>
     <circle
        style="fill:#1a1a1a;stroke:none;stroke-width:0.529;stroke-linecap:square"
        id="circle34"
@@ -308,13 +308,13 @@
     <text
        xml:space="preserve"
        style="font-size:5.77989px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:0.529;stroke-linecap:square"
-       x="63.724812"
-       y="95.134537"
+       x="60.473736"
+       y="95.151871"
        id="text37"><tspan
          sodipodi:role="line"
          id="tspan37"
          style="font-size:5.77989px;fill:#000080;stroke-width:0.529"
-         x="63.724812"
-         y="95.134537">8</tspan></text>
+         x="60.473736"
+         y="95.151871">64</tspan></text>
   </g>
 </svg>
