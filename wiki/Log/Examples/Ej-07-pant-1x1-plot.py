@@ -18,13 +18,9 @@ WAIT = 0.4
 def braile_from_pos(x, y):
 
     # ──── La funcion tiene valores diferentes segun los casos
-    # ──── Caso normal
-    if y < 3:
-        cod = 1 << (3*x + y)
-
-    # ──── Caso especial: y = 3
-    else:
-        cod = 1 << (x + 6)
+    # ──── Caso normal (y<3)
+    # ──── Caso especial (y=3)
+    cod = 1 << (3*x + y) if y < 3 else 1 << (x + 6)
     return cod
 
 
