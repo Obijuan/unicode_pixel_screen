@@ -15,7 +15,7 @@ PIX_WIDTH = 2 * WIDTH
 PIX_HEIGHT = 4 * HEIGHT
 
 # ────── Tiempo de espera entre fotogramas
-WAIT = 0.15
+WAIT = 5
 
 # ────── Pantalla virtual de WIDTH x HEIGHT caracteres
 pantalla = [[0 for _ in range(WIDTH)] for _ in range(HEIGHT)]
@@ -165,6 +165,15 @@ manic3 = [
     " xxx   xx ",
     "          ",
 ]
+
+"""
+Resultado:
+⢀⣤⣴⠆⠀⢀⣤⣴⠆⠀⢀⣤⣴⠆ ⠀⣠⣤⡶
+⠀⢿⡾⠂⠀⠀⢿⡾⠂⠀⠀⢿⡾⠂ ⠀⠸⣷⠗⠀
+⣰⣿⢿⣆⠀⢰⡏⣿⡆⠀⣰⣿⢿⣆ ⣠⣾⣿⣷⣄
+⢩⡿⣳⡍⠀⠈⢻⡞⠁⠀⢩⡿⣳⡍ ⢉⡼⠟⢷⣩
+⠈⠉⠈⠉⠀⠀⠈⠉⠀⠀⠈⠉⠈⠉ ⠈⠉⠀⠈⠁⠀
+"""
 
 # ────── Inicializacion
 stdscr = curses.initscr()
