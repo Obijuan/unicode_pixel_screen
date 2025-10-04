@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # ──────────────────────────────────────────────────────
 # ── Ejemplo de dibujo de sprites en la pantalla
-# ── Animación de un LED parpadeando
+# ── Animación del Manic Miner
 # ──────────────────────────────────────────────────────
 import curses
 import time
